@@ -2,11 +2,12 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
-  SiSlack,
-  SiVercel,
+  SiAdobephotoshop,
+  SiXcode,
+  SiAndroidstudio,
   SiMacos,
 } from "react-icons/si";
+import {  } from "react-icons/di"
 
 function Toolstack() {
   return (
@@ -18,13 +19,13 @@ function Toolstack() {
         <SiVisualstudiocode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostman />
+        <SiAdobephotoshop />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSlack />
+        <SiXcode />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiAndroidstudio />
       </Col>
     </Row>
   );
